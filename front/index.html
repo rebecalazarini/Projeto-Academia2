@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    
+    <form action="" method="">
+        <laber for="nome">Nome</laber>
+        
+
+        <input type="text" id="nome" placeholder="Digite o seu nome:" required/>
+        <br>
+        <br>
+
+        <label for="cpf">Cpf</label>
+        <input type="text" id="cpf" placeholder="Digite o seu CPF:">
+
+        <br>
+<br> 
+
+<label for="rg">Rg</label>
+<input type="text" id="rg" placeholder="Digite o seu Rg:">
+
+<br>
+<br> 
+
+<label for="telefone">Telefone</label>
+<input type="text" id="telefone" placeholder="Digite o seu telefone:">
+
+<br>
+<br>
+        
+<label for="plano">Plano da academia</label>
+<br>
+<select id="cidade">
+    <option>Plano 1</option>
+    <option>Plano 2</option>
+    <option>Plano 3</option>
+</select>
+
+<br>
+<br>
+        <label for="endereco">Endereço</label>
+        <input type="text" id="endereco" placeholder="Digite o seu endereco:" >
+<br>
+<br>
+        <label for="info">Informações Adicionais </label>
+        <br>
+        <textarea id="info"></textarea>
+
+        <br>
+        <br>
+
+        <label for="bairro">Bairro</label>
+        <input type="text" id="bairro" placeholder="Digite o seu bairro:" >
+<br>
+<br>
+
+        <!--TAG Fieldset conjunto de campos-->
+        <fieldset>
+            <legend>Gênero</legend>
+            <input type="radio" id="masc" name="genero">
+            <label for="masc">Masculino</label>
+
+            <input type="radio" id="fem" name="genero">
+            <label for="fem">Feminino</label>
+
+            <input type="radio" id="outros" name="genero">
+            <label for="outros">Outros</label>
+        </fieldset>
+<br>
+        <label for="cidade">Cidade</label>
+        <br>
+        <select id="cidade">
+            <option>Jaguariúna</option>
+            <option>Pedreira</option>
+            <option>Amparo</option>
+            <option>Campinas</option>
+        </select>
+
+        <br>
+<br>
+        <input type="reset" value="Limpar formulario">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+
+        <style>
+            body{
+             background-color: rgb(185, 159, 201);
+            }
+         </style>
+   
+    </form>
+
+    <style>
+        
+        body{
+        background-color: rgb(142, 238, 238);
+        }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containerheader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: rgb(127, 223, 230);
+}
+input{
+    width: 15%;
+    height: 200%;
+    border-radius: 10px;
+    border-color: black;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select{
+     width: 15%;
+    height: 200%;
+    }
+    </style>
+    
+    
+   
+
+</body>
+</html>
